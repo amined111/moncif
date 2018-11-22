@@ -7,7 +7,7 @@ client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== "485917652120764429") return;
+  if (message.author.id !== "418485485632225281") return;
  
 if (message.content.startsWith(prefix + 'setstream')) {
   client.user.setGame(argresult, "https://www.twitch.tv/amine12a");
